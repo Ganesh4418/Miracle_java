@@ -29,6 +29,6 @@ class content{
         System.out.println("Longest word: " +long_word);
     System.out.println("shortest word: " +short_word);
 
-    System.out.println("Average word length: " +(float) count/arr.length);
+    System.out.println("Average word length: %.2f" +(float) count/arr.length);
 }
 }
