@@ -9,7 +9,7 @@ class content{
     public static void main(String[] r){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter string: ");
-        String s = sc.nextLine();
+        String s = sc.nextLine().trim();
         String[] arr=s.split(" ");
         System.out.println("Total Words: "+arr.length);
         System.out.println("Total Characters: "+s.length());
