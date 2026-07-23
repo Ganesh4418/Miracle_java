@@ -1,4 +1,4 @@
-lass Person {
+class Person {
 
     String firstName = "Ganesh";
     String lastName = "Ye' Lenin";
@@ -14,6 +14,8 @@ lass Person {
     public static void main(String[] args) {
 
         Person p = new Person();
+        p.getFirstName();
+        p.getLastName();
 
         System.out.println("First Name: " + p.getFirstName());
         System.out.println("Last Name: " + p.getLastName());
