@@ -11,7 +11,7 @@
 // ● Mobile number should be valid
 // Calculate the total bill if all validations pass.
 import java.util.*;
-public class BankAccountOpeningSystem{
+public class OnlineShoppingCheckout{
 public static void main(String[] args){
     Scanner sc=new Scanner(System.in);
     try {
